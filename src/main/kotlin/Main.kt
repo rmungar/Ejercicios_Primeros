@@ -1,10 +1,7 @@
 import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.*
 
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -48,7 +45,10 @@ fun Box2(){
                 .background(Color.Cyan)
 
         ){
-            Text("Ejemplo de box con texto", Modifier.align(Alignment.BottomCenter))
+            Text("Ejemplo de box con texto",
+                Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(20.dp))
         }
     }
 }
