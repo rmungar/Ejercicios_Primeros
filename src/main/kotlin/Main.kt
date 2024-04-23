@@ -199,9 +199,9 @@ fun EJ6(){
                     .align(Alignment.TopCenter)
                     .padding(10.dp)
                     .border(5.dp, Color.Black)
-                    .background(Color.Yellow),
+                    .background(Color.Yellow)
+                    .absolutePadding(10.dp),
                 fontSize = 30.sp,
-                fontWeight = FontWeight.Bold,
 
             )
         }
